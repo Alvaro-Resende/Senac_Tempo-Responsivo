@@ -7,7 +7,10 @@ import { WiRainMix } from "react-icons/wi";
 export default function Coluna() {
   return (
     <div className="flex flex-col justify-center items-center w-[340px] bg-white p-5 rounded-[2vw] gap-3 drop-shadow-lg">
-      <div className="flex justify-between items-center w-full">
+      
+    {/*Segunda*/}  
+      <div className="flex items-center w-full">
+
         <div className="w-[113px] flex justify-start">
           <span className="text-[#2A374C]">Segunda</span>
         </div>
@@ -22,9 +25,12 @@ export default function Coluna() {
             <span className="text-[#2A374C] font-bold text-xl">23</span>
           </div>
         </div>
+
       </div>
 
-      <div className="flex justify-between items-center w-full">
+    {/*Terça*/}  
+      <div className="flex items-center w-full">
+        
         <div className="w-[113px] flex justify-start">
           <span className="text-[#2A374C]">Terça</span>
         </div>
@@ -39,9 +45,12 @@ export default function Coluna() {
             <span className="text-[#2A374C] font-bold text-xl">27</span>
           </div>
         </div>
+        
       </div>
 
-      <div className="flex justify-between items-center w-full">
+    {/*Quarta*/}  
+      <div className="flex items-center w-full">
+
         <div className="w-[113px] flex justify-start">
           <span className="text-[#2A374C]">Quarta</span>
         </div>
@@ -56,13 +65,16 @@ export default function Coluna() {
             <span className="text-[#2A374C] font-bold text-xl">26</span>
           </div>
         </div>
+
       </div>
 
+    {/*Quinta*/}  
       <div className="flex justify-between items-center w-full">
+
         <div className="w-[113px] flex justify-start">
           <span className="text-[#2A374C]">Quinta</span>
         </div>
-
+        
         <div className="w-[113px] flex justify-center">
           <WiDayCloudyWindy className="text-6xl text-gray-500" />
         </div>
@@ -73,9 +85,13 @@ export default function Coluna() {
             <span className="text-[#2A374C] font-bold text-xl">24</span>
           </div>
         </div>
+
       </div>
 
+
+    {/*Sexta*/}  
       <div className="flex justify-between items-center w-full">
+
         <div className="w-[113px] flex justify-start">
           <span className="text-[#2A374C]">Sexta</span>
         </div>
@@ -90,9 +106,13 @@ export default function Coluna() {
             <span className="text-[#2A374C] font-bold text-xl">22</span>
           </div>
         </div>
+
       </div>
 
+
+    {/*Sabádo*/}  
       <div className="flex justify-between items-center w-full">
+
         <div className="w-[113px] flex justify-start">
           <span className="text-[#2A374C]">Sabádo</span>
         </div>
@@ -107,9 +127,13 @@ export default function Coluna() {
             <span className="text-[#2A374C] font-bold text-xl">20</span>
           </div>
         </div>
+
       </div>
 
+
+    {/*Domingo*/}  
       <div className="flex justify-between items-center w-full">
+
         <div className="w-[113px] flex justify-start">
           <span className="text-[#2A374C]">Domingo</span>
         </div>
@@ -124,7 +148,9 @@ export default function Coluna() {
             <span className="text-[#2A374C] font-bold text-xl">25</span>
           </div>
         </div>
+        
       </div>
+
     </div>
   );
 }
