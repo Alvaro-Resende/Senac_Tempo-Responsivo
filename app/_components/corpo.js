@@ -25,7 +25,7 @@ export default function Corpo() {
 
             <div className="flex flex-col justify-center items-center space-y-3">
                 <span>6:00 AM</span>
-                <WiDayCloudyWindy className="text-6xl text-white"/>
+                <WiDayCloudyWindy className="text-6xl text-gray-500"/>
                 <span className="font-bold text-xl">24°</span>
             </div>
 
@@ -37,13 +37,13 @@ export default function Corpo() {
 
             <div className="flex flex-col justify-center items-center space-y-3">
                 <span>12:00 AM</span>
-                <WiCloud className="text-6xl text-white"/>
+                <WiCloud className="text-6xl text-gray-700"/>
                 <span className="font-bold text-xl">30°</span>
             </div>
 
             <div className="flex flex-col justify-center items-center space-y-3">
                 <span>3:00 AM</span>
-                <WiRainMix className="text-6xl text-gray-600 "/>
+                <WiRainMix className="text-6xl text-gray-900 "/>
                 <span className="font-bold text-xl">32°</span>
             </div>
         </div>
